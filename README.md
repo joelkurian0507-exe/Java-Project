@@ -31,22 +31,22 @@ It then creates two `Employee` objects and displays their details.
 ```
 Enter details of Employee 1
 ID: 101
-Name: John
-Salary: 50000
+Name: Rajesh PV
+Salary: 25000
 
 Enter details of Employee 2
 ID: 102
-Name: Alice
-Salary: 60000
+Name: Sukumaran R Nair
+Salary: 55000
 
 Employee Details
 Employee ID : 101
-Employee Name : John
-Salary : 50000.0
+Employee Name : Rajesh PV
+Salary : 25000.0
 
 Employee ID : 102
-Employee Name : Alice
-Salary : 60000.0
+Employee Name : Sukumaran R Nair
+Salary : 55000.0
 ```
 
 ## How to Run
@@ -158,23 +158,23 @@ It then creates two `Book` objects and displays their information.
 
 ```text
 Enter Book 1 Details
-Title: The Alchemist
-Author: Paulo Coelho
-Price: 399
+Title: Canvas of Life
+Author: Shella Gujral
+Price: 1339
 
 Enter Book 2 Details
-Title: Atomic Habits
-Author: James Clear
-Price: 550
+Title: Harry Potter
+Author: J K Rowling
+Price: 1040
 
 Book Details
-Title : The Alchemist
-Author : Paulo Coelho
-Price : 399.0
+Title :Canvas of Life
+Author :Shella Gujral
+Price : 1339.0
 
-Title : Atomic Habits
-Author : James Clear
-Price : 550.0
+Title : Harry Potter
+Author :  J K Rowling
+Price : 1040.0
 ```
 
 ## How to Run
@@ -321,13 +321,13 @@ It then:
 
 ```text
 Enter Account Number: 123456789
-Enter Account Holder Name: John Doe
+Enter Account Holder Name: Rajesh PV
 Enter Initial Balance: 5000
 Enter Deposit Amount: 1500
 
 Updated Account Details
 Account Number : 123456789
-Account Holder : John Doe
+Account Holder : Rajesh PV
 Balance : 6500.0
 ```
 
