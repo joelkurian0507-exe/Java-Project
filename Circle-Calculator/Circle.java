@@ -1,9 +1,11 @@
-import java.util.Scanner;
-public class Main {
+package Module1;
 
+import java.util.Scanner;
+
+class Circle {
     double radius;
 
-    Main(double r) {
+    Circle(double r) {
         radius = r;
     }
 
@@ -21,9 +23,7 @@ public class Main {
         System.out.print("Enter Radius: ");
         double r = sc.nextDouble();
 
-        Main c = new Main(r);
+        Circle c = new Circle(r);
         c.display();
-
-        sc.close();
     }
 }
