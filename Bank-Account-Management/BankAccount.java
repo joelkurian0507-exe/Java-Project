@@ -1,11 +1,13 @@
-import java.util.Scanner;
-public class Main {
+package Module1;
 
+import java.util.Scanner;
+
+class BankAccount {
     String accountNumber;
     String accountHolder;
     double balance;
 
-    Main(String accNo, String holder, double bal) {
+    BankAccount(String accNo, String holder, double bal) {
         accountNumber = accNo;
         accountHolder = holder;
         balance = bal;
@@ -33,7 +35,7 @@ public class Main {
         System.out.print("Enter Initial Balance: ");
         double bal = sc.nextDouble();
 
-        Main obj = new Main(acc, name, bal);
+        BankAccount obj = new BankAccount(acc, name, bal);
 
         System.out.print("Enter Deposit Amount: ");
         double amount = sc.nextDouble();
@@ -43,6 +45,6 @@ public class Main {
         System.out.println("\nUpdated Account Details");
         obj.displayDetails();
 
-        sc.close();
+       
     }
 }
