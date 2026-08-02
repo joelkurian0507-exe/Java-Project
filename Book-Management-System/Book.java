@@ -1,11 +1,13 @@
-import java.util.Scanner;
-public class Main {
+package Module1;
 
+import java.util.Scanner;
+
+class Book {
     String title;
     String author;
     double price;
 
-    Main(String t, String a, double p) {
+    Book(String t, String a, double p) {
         title = t;
         author = a;
         price = p;
@@ -38,13 +40,11 @@ public class Main {
         System.out.print("Price: ");
         double p2 = sc.nextDouble();
 
-        Main b1 = new Main(t1, a1, p1);
-        Main b2 = new Main(t2, a2, p2);
+        Book b1 = new Book(t1, a1, p1);
+        Book b2 = new Book(t2, a2, p2);
 
         System.out.println("\nBook Details");
         b1.display();
         b2.display();
-
-        sc.close();
     }
 }
